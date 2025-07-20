@@ -6,3 +6,4 @@ icon.addEventListener('click', () => {
   linkShow.classList.toggle('show');
   bars.classList.toggle('fa-xmark');
 });
+
