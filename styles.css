@@ -928,10 +928,10 @@ footer .img-vector.blend {
 		gap: 40px;
 	}
 
-	#healthcare,
+	/* #healthcare,
 	#download {
 		overflow-x: hidden;
-	}
+	} */
 
 	#services .container {
 		width: 100%;
@@ -944,11 +944,11 @@ footer .img-vector.blend {
 	}
 
 	.services-card {
-		padding: 50px 25px 30px;
+		padding: 50px 30px 30px;
 	}
 
   .services-card p {
-    width: 90%;
+    width: 100%;
   }
 
 	.healthcare-content p,
