@@ -823,9 +823,10 @@ footer .img-vector.blend {
 		font-size: 28px;
 	}
 
-  #healthcare, #download {
-    overflow-x: hidden;
-  }
+	#healthcare,
+	#download {
+		overflow-x: hidden;
+	}
 
 	.icon {
 		display: block;
@@ -848,11 +849,11 @@ footer .img-vector.blend {
 
 	nav {
 		padding-top: 40px;
-    overflow-x: hidden;
+		overflow-x: hidden;
 	}
 
 	.nav-links {
-    display: none;
+		display: none;
 	}
 
 	.nav-links li {
@@ -885,7 +886,7 @@ footer .img-vector.blend {
 
 	header {
 		min-height: 730px;
-    margin-bottom: 0;
+		margin-bottom: 0;
 	}
 
 	nav {
@@ -927,14 +928,27 @@ footer .img-vector.blend {
 		gap: 40px;
 	}
 
-  #services .container {
-    width: 100%;
-    padding: 0 1rem;
-  }
+	#healthcare,
+	#download {
+		overflow-x: hidden;
+	}
 
-  #services .services-body-cards {
-    padding: 0.5rem;
-    margin: 1.5rem auto;
+	#services .container {
+		width: 100%;
+		padding: 0 1rem;
+	}
+
+	#services .services-body-cards {
+		padding: 0.5rem;
+		margin: 1.5rem auto;
+	}
+
+	.services-card {
+		padding: 50px 25px 30px;
+	}
+
+  .services-card p {
+    width: 90%;
   }
 
 	.healthcare-content p,
