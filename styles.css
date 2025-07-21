@@ -885,6 +885,7 @@ footer .img-vector.blend {
 
 	header {
 		min-height: 730px;
+    margin-bottom: 0;
 	}
 
 	nav {
@@ -906,8 +907,8 @@ footer .img-vector.blend {
 	}
 
 	.header-hero {
-		padding-top: 6rem;
-		padding-bottom: 6rem;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 	}
 
 	.services-body-cards,
@@ -925,6 +926,16 @@ footer .img-vector.blend {
 		text-align: center;
 		gap: 40px;
 	}
+
+  #services .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  #services .services-body-cards {
+    padding: 0.5rem;
+    margin: 1.5rem auto;
+  }
 
 	.healthcare-content p,
 	.download-content p {
